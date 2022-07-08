@@ -65,7 +65,7 @@ function showTasks() {
     if (taskObj.length != 0) {
         tasksElm.innerHTML = html;
     } else {
-        tasksElm.innerHTML = `<p>Nothing to show! Use "Add a Note" section above to add tasks.</P`;
+        tasksElm.innerHTML = `<p>Nothing to show! Use "Add a task" section above to add tasks.</P`;
     }
 }
 
